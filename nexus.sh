@@ -5,7 +5,5 @@ tar -zxvf nexus-3.91.0-07-linux-x86_64.tar.gz
 useradd nexus
 chown -R nexus:nexus nexus-3.91.0-07 sonatype-work
 su - nexus
-cd /opt
-cd nexus-3.91.0-07
-cd /bin
+cd /opt/nexus-3.91.0-07/bin
 ./nexus start
